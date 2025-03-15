@@ -5284,6 +5284,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libcam.hal3a.ctrl.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "libmtkcam_tuning_utils",
                 "libmtkcam_metadata",
                 "libmtkcam_metastore",
@@ -5554,6 +5555,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libcam.hal3a.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "lib3a.awbsync",
                 "lib3a.ae",
                 "libcam.halisp.TuningDataProvider",
