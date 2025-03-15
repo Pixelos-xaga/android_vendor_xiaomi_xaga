@@ -12559,6 +12559,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/mt6895/libmtkcam_request_requlator.so",
             ],
             shared_libs: [
+                "libprocessgroup_shim",
                 "liblog",
                 "libmtkcam_ulog",
                 "libmtkcam_debugutils",
