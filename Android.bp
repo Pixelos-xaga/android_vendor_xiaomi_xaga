@@ -5,6 +5,7 @@
 soong_namespace {
     imports: [
         "hardware/mediatek",
+        "hardware/mediatek/libaedv",
         "hardware/xiaomi",
         "vendor/xiaomi/mt6895-common",
     ],
@@ -597,7 +598,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/hw/audio.primary.mediatek.so",
             ],
             shared_libs: [
-                "libstagefright_foundation-v33",
                 "libhidlbase",
                 "vendor.mediatek.hardware.mtkpower@1.0",
                 "liblog",
@@ -608,7 +608,7 @@ cc_prebuilt_library_shared {
                 "libhardware",
                 "libaudioutils",
                 "libtinyalsa",
-                "libtinyxml2",
+                "libtinyxml2-v34",
                 "libaudiotoolkit_vendor",
                 "libmedia_helper",
                 "libladder",
