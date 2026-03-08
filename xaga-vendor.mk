@@ -201,11 +201,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xaga/proprietary/vendor_ramdisk/lib/firmware/novatek_nt36672e_l16_fw01.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/novatek_nt36672e_l16_fw01.bin \
     vendor/xiaomi/xaga/proprietary/vendor_ramdisk/lib/firmware/novatek_nt36672e_l16_fw02.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/novatek_nt36672e_l16_fw02.bin \
     vendor/xiaomi/xaga/proprietary/vendor_ramdisk/lib/firmware/novatek_nt36672e_l16_mp01.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/novatek_nt36672e_l16_mp01.bin \
-    vendor/xiaomi/xaga/proprietary/vendor_ramdisk/lib/firmware/novatek_nt36672e_l16_mp02.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/novatek_nt36672e_l16_mp02.bin \
-    vendor/xiaomi/xaga/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc \
-    vendor/xiaomi/xaga/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
-    vendor/xiaomi/xaga/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
-    vendor/xiaomi/xaga/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc
+    vendor/xiaomi/xaga/proprietary/vendor_ramdisk/lib/firmware/novatek_nt36672e_l16_mp02.bin:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/lib/firmware/novatek_nt36672e_l16_mp02.bin
 
 PRODUCT_PACKAGES += \
     com.xiaomi.plugin.arcsoftsr \
@@ -651,28 +647,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.1 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
-    vendor.xiaomi.hardware.misys@1.0.xml \
-    vendor.xiaomi.hardware.misys@2.0.xml \
-    vendor.xiaomi.hardware.misys@3.0.xml \
-    vendor.xiaomi.hardware.misys@4.0.xml \
     vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.xiaomi.hardware.quickcamera-V1-ndk \
-    vendor.xiaomi.hardware.misys.common-V3-ndk \
-    vendor.xiaomi.hardware.misys.core-V1-ndk \
-    vendor.xiaomi.hardware.misys@1.0 \
-    vendor.xiaomi.hardware.misys@2.0 \
-    vendor.xiaomi.hardware.misys@3.0 \
-    vendor.xiaomi.hardware.misys@4.0 \
-    vendor.xiaomi.hardware.misys@1.0-impl \
-    vendor.xiaomi.hardware.misys@2.0-impl \
-    vendor.xiaomi.hardware.misys@3.0-impl \
-    vendor.xiaomi.hardware.misys@4.0-impl \
-    vendor.xiaomi.hardware.misys@1.0-service \
-    vendor.xiaomi.hardware.misys@2.0-service \
-    vendor.xiaomi.hardware.misys@3.0-service \
-    vendor.xiaomi.hardware.misys@4.0-service \
-    libcheckpid \
-    liblogwrap_vendor \
     batterysecret \
     camerahalserver \
     mi_thermald
