@@ -214,10 +214,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/xaga/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc \
     vendor/xiaomi/xaga/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc \
     vendor/xiaomi/xaga/proprietary/vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc \
-    vendor/xiaomi/xaga/proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml \
-    vendor/xiaomi/xaga/proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml \
-    vendor/xiaomi/xaga/proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml \
-    vendor/xiaomi/xaga/proprietary/vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so \
     vendor/xiaomi/xaga/proprietary/vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so \
@@ -673,6 +669,10 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.1 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
+    vendor.xiaomi.hardware.misys@1.0.xml \
+    vendor.xiaomi.hardware.misys@2.0.xml \
+    vendor.xiaomi.hardware.misys@3.0.xml \
+    vendor.xiaomi.hardware.misys@4.0.xml \
     batterysecret \
     camerahalserver \
     mi_thermald
