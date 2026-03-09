@@ -715,6 +715,8 @@ PRODUCT_PACKAGES += \
     vendor.mediatek.hardware.camera.isphal@1.1 \
     vendor.mediatek.hardware.camera.postproc@1.0 \
     vendor.mediatek.hardware.camera.security@1.0 \
+    vendor.xiaomi.hardware.campostproc@1.0 \
+    vendor.xiaomi.hardware.quickcamera-V1-ndk \
     batterysecret \
     camerahalserver \
     mi_thermald
